@@ -6,4 +6,4 @@ RewriteCond  %{REQUEST_FILENAME} !-f
 
 RewriteCond  %{REQUEST_FILENAME} !-d
 
-RewriteRule  ^(.*)$ /Explorer/index.php?route=$1 [NC,L,QSA]
+RewriteRule  ^(.*)$ /explorateur_mvc/index.php?route=$1 [NC,L,QSA]
